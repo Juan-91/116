@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #9F01BE;
+    --primary-color-600: #A901CB;
+    --primary-color-900: #2A0033;
+
+    --secondary-color: #C69AF5;
+    --secondary-color-100: #F6CCFF;
+    --secondary-color-200: #EE9AFE;
+
+    --background-color: #00b3ff;
+    --surface-color: #393737;
+    --neutral-color: #FFFFFF;
+
+    --lobster-font: "Lobster Two", sans-serif;
+    --dm-font: "DM Sans", sans-serif
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--dm-font);
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+.center-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
