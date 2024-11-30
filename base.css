@@ -1,28 +1,32 @@
 :root {
-    --primary-color: #9F01BE;
-    --primary-color-600: #A901CB;
+    --primary-color: rgba(127, 255, 212, 0.812);
+    --primary-color-600: rgb(184, 246, 225);
     --primary-color-900: #2A0033;
 
-    --secondary-color: #C69AF5;
-    --secondary-color-100: #F6CCFF;
-    --secondary-color-200: #EE9AFE;
+    --secondary-color: rgba(127, 255, 212, 0.812);
+    --secondary-color-100: #3b3b3b;
+    --secondary-color-200: #191919;
 
-    --background-color: #00b3ff;
-    --surface-color: #393737;
-    --neutral-color: #FFFFFF;
+    --background-color: #bfd7ed;
+    --surface-color: #003b73;
+    --neutral-color: #bfd7ed;
 
     --lobster-font: "Lobster Two", sans-serif;
-    --dm-font: "DM Sans", sans-serif
+    --dm-font: "DM Sans", sans-serif;
+    --spartan-font: "League Spartan", sans-serif;
+    --libre-font: "Libre Baskerville", sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: var(--dm-font);
+    font-size: 30px;
 }
 
 html {
     background-color: var(--background-color);
+    font-size: 18px;
 }
 
 .center-row {
@@ -36,4 +40,26 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+
+h1 {
+    font-family: var(--libre-font);
+    color: var(--surface-color);
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: var(--libre-font);
+    color: var(--neutral-color);
+    font-size: 1.8rem;
+    letter-spacing: 0.06rem;
+}
+
+p {
+    font-family: var(--libre-font);
+    text-decoration: none;
 }

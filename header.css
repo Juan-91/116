@@ -1,5 +1,5 @@
 header {
-    background-color: var(--surface-color);
+    background-color: var(--secondary-color-100);
 
 }
 
@@ -8,7 +8,7 @@ header {
 }
 
 .logo img {
-    width: 25%;
+    width: 15%;
     padding: 1%;
 }
 
@@ -21,12 +21,16 @@ header {
 .nav-options a {
     color: var(--neutral-color);
     text-decoration: none;
+    font-family: var(--libre-font);
+    font-style: italic;
     text-transform: uppercase;
+    font-size: 16PX;
     margin: 2%;
     padding: 1%;
 }
 
 .nav-options a:hover {
-    border-bottom: solid 2px var(--secondary-color-200);
-    border-top: solid 2px var(--secondary-color-200);
+    border-bottom: solid 3px var(--neutral-color);
+    border-top: solid 3px var(--neutral-color);
+    color: var(--primary-color);
 }
